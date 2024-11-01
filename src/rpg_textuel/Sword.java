@@ -16,8 +16,10 @@ public class Sword extends Weapon{
 
     @Override
     public String asciiArt() {
-        return "       |______________\n" +
-                "[======|______________>\n" +
-                "       |\n";
+        return "          -\n" +
+                "          |\n" +
+                "O=========|>>>>>>>>>>>>>>>>>>>>>>>>>>\n" +
+                "          |\n" +
+                "          -";
     }
 }

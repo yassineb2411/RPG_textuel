@@ -19,7 +19,7 @@ public class Bow extends Weapon{
         return "   (\n" +
                 "    \\\n" +
                 "     )\n" +
-                "##-------->" +
+                "##-------->\n" +
                 "     )\n" +
                 "    /\n" +
                 "   (";

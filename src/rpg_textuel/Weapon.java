@@ -9,6 +9,8 @@ public abstract class Weapon {
     protected double monster_damage_ratio;
     protected double obstacle_damage_ratio;
 
+    public Weapon(){}
+
     public Weapon(double d, double p, String name, double monsterRatio, double obstacleRatio) {
         this.damage = d;
         this.price = p;
