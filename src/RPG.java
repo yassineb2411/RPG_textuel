@@ -1,10 +1,9 @@
-import rpg_textuel.Weapon;
-import rpg_textuel.WeaponStore;
+import rpg_textuel.Weapons.Weapon;
+import rpg_textuel.Weapons.WeaponStore;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class RPG {
     public static void main(String[] args) {
         System.out.println("Vous venez d'être fait prisonnier dans le donjon par Devilman,\n"+
                 "il va falloir combattre ses sbires monstrueux et réussir à passer les obstacles du donjon pour ensuite battre Devilman ! \n"+
@@ -48,6 +47,9 @@ public class Main {
                 System.out.println("Choix invalide. Veuillez appuyer sur A, B ou S pour sélectionner une arme.");
                 break;
         }
+
+        System.out.println("Vous êtes maintenant prêt à combattre");
+
 
     }
 }

@@ -1,4 +1,7 @@
-package rpg_textuel;
+package rpg_textuel.Weapons;
+
+import rpg_textuel.Monsters.Monster;
+import rpg_textuel.Obstacles.Obstacle;
 
 public abstract class Weapon {
 

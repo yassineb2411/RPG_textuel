@@ -1,4 +1,4 @@
-package rpg_textuel;
+package rpg_textuel.Weapons;
 
 public class Axe extends Weapon {
 

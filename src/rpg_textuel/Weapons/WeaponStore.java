@@ -1,4 +1,5 @@
-package rpg_textuel;
+package rpg_textuel.Weapons;
+
 import java.util.ArrayList;
 
 public class WeaponStore extends Weapon {

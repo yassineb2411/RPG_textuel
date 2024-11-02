@@ -1,6 +1,6 @@
-package rpg_textuel;
+package rpg_textuel.Weapons;
 
-public class Bow extends Weapon{
+public class Bow extends Weapon {
 
     private static final double DAMAGE = 10;
     private static final double PRICE = 12;
