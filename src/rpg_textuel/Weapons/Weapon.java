@@ -22,6 +22,14 @@ public abstract class Weapon {
         this.obstacle_damage_ratio = obstacleRatio;
     }
 
+    public double getDamage() {
+        return damage;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public double getMonsterDamageRatio() {
         return this.monster_damage_ratio;
     }

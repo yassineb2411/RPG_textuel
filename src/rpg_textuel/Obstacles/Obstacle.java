@@ -3,18 +3,19 @@ package rpg_textuel.Obstacles;
 public class Obstacle {
 
     protected double life;
-    protected double damage;
 
-    public Obstacle(double l, double d) {
+    public Obstacle(double l) {
         this.life = l;
-        this.damage = d;
+    }
+
+    public double getLife() {
+        return life;
     }
 
     public void hit(double damageTaken) {
         this.life -= damageTaken;
-    }
-
-    public void attack(double targetLife) {
-        targetLife -= this.damage;
+        if(this.life < 0) {
+            this.life = 0;
+        }
     }
 }

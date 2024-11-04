@@ -1,5 +1,7 @@
 package rpg_textuel.Monsters;
 
+import rpg_textuel.Player.Player;
+
 public class Devilman extends Monster {
 
     private static final double DEFAULT_LIFE = 500;
@@ -11,17 +13,13 @@ public class Devilman extends Monster {
         this.life = DEFAULT_LIFE;
     }
 
-    public double getLife() {
-        return life;
-    }
-
     public void hit(double damageTaken) {
         super.hit(damageTaken);
         System.out.println("Devilman est attaqué avec un dégât de " + damageTaken + " et il lui reste :" + this.life + " points de vie !");
     }
 
-    public void attack(double DAMAGE) {
-        super.attack(DAMAGE);
+    public void attack(Player player) {
+        super.attack(player);
         System.out.println("Devilman attaque avec un dégât de " + DAMAGE + " points de vie !");
     }
 }
