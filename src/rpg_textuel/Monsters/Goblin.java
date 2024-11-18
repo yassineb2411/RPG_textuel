@@ -7,10 +7,9 @@ public class Goblin extends Monster {
     private static final double DEFAULT_LIFE = 50;
     private double life;
     private static final double DAMAGE = 10;
-    private String name = "Goblin";
 
     public Goblin() {
-        super(DEFAULT_LIFE, DAMAGE);
+        super("Gobelin", DEFAULT_LIFE, DAMAGE);
         this.life = DEFAULT_LIFE;
     }
 

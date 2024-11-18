@@ -7,11 +7,11 @@ public class Sword extends Weapon{
     private static final String NAME = "Hammer";
 
     private static final double MONSTER_DAMAGE_RATIO = 1.5;
-    private static final double OBSTACLE_DAMAGE_RATIO = 1.2;
+    private static final double OBSTACLE_DAMAGE_RATIO = 1.5;
 
 
     public Sword() {
-        super(DAMAGE, PRICE, NAME, MONSTER_DAMAGE_RATIO, OBSTACLE_DAMAGE_RATIO);
+        super(DAMAGE, NAME, MONSTER_DAMAGE_RATIO, OBSTACLE_DAMAGE_RATIO);
     }
 
     @Override

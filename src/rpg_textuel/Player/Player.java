@@ -38,7 +38,6 @@ public class Player {
         if (this.life < 0) {
             this.life = 0;
         }
-        System.out.println("Vous avez perdu " + damageTaken + " points de vie. Vie restante : " + this.life);
     }
 
 

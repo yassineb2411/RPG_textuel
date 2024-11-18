@@ -8,7 +8,8 @@ public class Monster {
     protected double damage;
     protected String name;
 
-    public Monster(double l, double d) {
+    public Monster(String name, double l, double d) {
+        this.name = name;
         this.life = l;
         this.damage = d;
     }

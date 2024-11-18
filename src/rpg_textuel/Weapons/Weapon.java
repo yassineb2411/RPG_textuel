@@ -6,7 +6,6 @@ import rpg_textuel.Obstacles.Obstacle;
 public abstract class Weapon {
 
     protected double damage;
-    protected double price;
     protected String name;
 
     protected double monster_damage_ratio;
@@ -14,9 +13,8 @@ public abstract class Weapon {
 
     public Weapon(){}
 
-    public Weapon(double d, double p, String name, double monsterRatio, double obstacleRatio) {
+    public Weapon(double d, String name, double monsterRatio, double obstacleRatio) {
         this.damage = d;
-        this.price = p;
         this.name = name;
         this.monster_damage_ratio = monsterRatio;
         this.obstacle_damage_ratio = obstacleRatio;

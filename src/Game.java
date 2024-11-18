@@ -138,8 +138,11 @@ public class Game {
 
             if (choice.equals("a")) {
                 player.attackMonster(devilman);
-                if (devilman.getLife() > 0) {
+                if (devilman.getLife() > 0 && player.getLife() > 0) {
                     devilman.attack(player);
+                }
+                if(player.getLife() > 0) {
+                    player.regenerateLife(50);
                 }
             } else if (choice.equals("f")) {
                 System.out.println("Vous ne pouvez pas fuir contre Devilman !");
